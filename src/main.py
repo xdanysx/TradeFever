@@ -1,5 +1,6 @@
 import sys
 import random
+import os
 from typing import Dict
 
 from PySide6.QtCore import QTimer, Qt
@@ -16,8 +17,6 @@ from PySide6.QtWidgets import (
     QSpinBox,
     QGroupBox,
 )
-
-import os
 
 def load_config():
     # Ordner finden, in dem main.py liegt
